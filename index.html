@@ -1,12 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Showcase by Zimo Wang</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Testing</h1>
-    <h2>Testing</h2>
+
+  <header>
+    <h1>Student Showcase</h1>
+    <p class="tagline">by Zimo Wang</p>
+    <div class="stripes"></div>
+  </header>
+
+  <main>
+
+    <section class="contents">
+      <a class="contents-item" href="#about">01 About Me</a>
+      <a class="contents-item" href="#hobbies">02 Hobbies</a>
+      <a class="contents-item" href="#contact">03 Contact</a>
+    </section>
+
+    <section class="intro" id="about">
+      <h2>Developer Profile</h2>
+      <img class="profile-photo" src="images/zm.jpg" alt="Photo of Zimo Wang">
+      <p class="intro-name">Hi, I'm Zimo Wang.</p>
+      <p class="intro-text">
+        Third-year student at UTM, studying in Digital Enterprise Management Specialist.
+        Dream of being a super star. I love every day.
+      </p>
+    </section>
+
+    <section class="quote">
+      <div class="stripes"></div>
+      <p class="quote-text">Three things I always make time for</p>
+      <div class="stripes"></div>
+    </section>
+
+    <section class="cards-container" id="hobbies">
+      <h2 class="section-title">My Hobbies</h2>
+
+      <article class="card">
+        <img src="images/pet.jpg" alt="A dog">
+        <h3>Little Pets</h3>
+        <p>I say hi to every dog I walk past.<br>One day I want a big orange one of my own.</p>
+      </article>
+
+      <article class="card">
+        <img src="images/travel.jpg" alt="A place I travelled to">
+        <h3>Traveling</h3>
+        <p>New cities, long walks, far too many photos.<br>Next on the list: somewhere with seas.</p>
+      </article>
+
+      <article class="card">
+        <img src="images/cdrama.jpg" alt="My TV corner">
+        <h3>TV Series</h3>
+        <p>One episode always turns into five.<br>Best with snacks and no plans for the evening.</p>
+      </article>
+
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="section-title">Say Hi</h2>
+      <p class="contact-text">Leave your name and I'll get back to you.</p>
+
+      <form class="contact-form">
+        <input class="field" type="text" placeholder="Your name">
+        <input class="field" type="email" placeholder="Your email">
+        <textarea class="field" rows="4" placeholder="Your message"></textarea>
+        <button class="send-button" type="submit">Send</button>
+      </form>
+    </section>
+
+  </main>
+
+<footer class="footer">
+    <p>&copy;2026 Student Showcase</p>
+    <p>This is Zimo Wang.</p>
+  </footer>
+
 </body>
 </html>
